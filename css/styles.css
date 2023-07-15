@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caprasimo&family=Chela+One&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&family=Mynerve&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Satisfy&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caprasimo&family=Chela+One&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&family=Mynerve&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Satisfy&display=swap");
 
 :root {
     --border-media: #7c542c62;
     --border-escura: #533516;
-    --border-claro:hsla(106, 24%, 86%, 0.986);
+    --border-claro: hsla(106, 24%, 86%, 0.986);
 }
 
 * {
@@ -13,13 +13,15 @@
 }
 
 body {
-    background-image: radial-gradient(circle, rgba(133, 211, 134, 0.986) 2%, #a5682bcc);
+    background-image: radial-gradient(circle,
+            rgba(133, 211, 134, 0.986) 2%,
+            #a5682bcc);
     background-size: 1366px;
 }
 
 .altera-fontes {
-    font-size: 2rem; 
-    font-family: 'Mynerve', cursive;
+    font-size: 2rem;
+    font-family: "Mynerve", cursive;
 }
 
 .container1 {
@@ -36,20 +38,21 @@ body {
 aside {
     display: flex;
     flex-direction: column;
-    background-color: rgba(104, 230, 106, 0.596); 
+    background-color: rgba(104, 230, 106, 0.596);
     width: 25%;
     height: 100%;
     position: fixed;
+    align-items: center;
 }
 
-h1{
+h1 {
     font-size: 3rem;
-    font-weight:lighter;
+    font-weight: lighter;
 }
 
-aside a{
-    font-family: 'Crimson Text', serif;
-    font-size: 1.20rem;
+aside a {
+    font-family: "Crimson Text", serif;
+    font-size: 1.2rem;
     text-decoration: none;
     color: inherit;
 }
@@ -64,7 +67,7 @@ aside a{
     padding: 4px;
 }
 
-aside ul li{
+aside ul li {
     list-style: none;
     padding: 4px;
     text-align: justify;
@@ -75,30 +78,30 @@ aside ul li{
 }
 
 .item-1 {
-    padding: 10px 40px;
+    padding: 10px 50px;
     width: 100%;
     text-align: justify;
 }
 
-h2{
+h2 {
     font-size: 2.5rem;
     font-weight: lighter;
 }
 
-.item-1 p{
+.item-1 p {
     font-size: 1rem;
-    font-family: 'Crimson Text', serif;
+    font-family: "Crimson Text", serif;
     font-weight: bold;
 }
 
 .item-1 ul li {
     list-style: none;
-    font-size: 0.90rem;
-    font-family: 'Crimson Text', serif;
+    font-size: 0.9rem;
+    font-family: "Crimson Text", serif;
     font-weight: bold;
 }
 
-.item-2 {    
+.item-2 {
     padding: 10px 40px;
     width: 100%;
     text-align: justify;
@@ -108,21 +111,20 @@ h2{
     padding: 25px 50px;
 }
 
-.carousel-item img{   
-    border-style:double;
+.carousel-item img {
+    border-style: double;
     border-width: 2px;
     border-color: var(--border-escura);
     border-radius: 25px;
 }
 
-
-.item-2 p{
+.item-2 p {
     font-size: 1rem;
-    font-family: 'Crimson Text', serif;
+    font-family: "Crimson Text", serif;
     font-weight: bold;
 }
 
-.item-3 {  
+.item-3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -140,12 +142,12 @@ h2{
 article {
     padding: 0;
     font-size: 1rem;
-    font-family: 'Crimson Text', serif;
+    font-family: "Crimson Text", serif;
     font-weight: bold;
 }
 
 .card {
-    background-color: var(--border-media);       
+    background-color: var(--border-media);
     display: flex;
     flex-wrap: wrap;
     margin: 12px;
@@ -154,7 +156,7 @@ article {
     gap: 8px;
     text-align: center;
     border-radius: 12%;
-    border-style:double;
+    border-style: double;
     border-width: 2px;
     border-color: #533516;
 }
@@ -162,7 +164,7 @@ article {
 .card img {
     border-radius: 100%;
     border-color: hsla(106, 24%, 86%, 0.986);
-    border-style:double;
+    border-style: double;
     border-width: 4px;
     height: 160px;
     width: 160px;
@@ -172,17 +174,17 @@ article {
     width: 230px;
 }
 
-.btn-outline-success{
+.btn-outline-success {
     padding: 3px;
-    border-color: hsla(106, 24%, 86%, 0.986);    
-    border-style:double;
-    font-size: 1.40rem;
-    font-family: 'Mynerve', cursive;
-    font-weight:bold;
+    border-color: hsla(106, 24%, 86%, 0.986);
+    border-style: double;
+    font-size: 1.4rem;
+    font-family: "Mynerve", cursive;
+    font-weight: bold;
     color: rgba(31, 27, 27, 0.897);
 }
 
-.btn-outline-success a{
+.btn-outline-success a {
     text-decoration: none;
     color: inherit;
 }
@@ -195,57 +197,59 @@ article {
     border-radius: 100%;
 }
 
+.whats img {
+    height: 40px;
+    width: 40px;
+}
+
 footer {
-    font-size: 0.60rem;
+    font-family: "Crimson Text", serif;
+    font-size: 0.6rem;
     bottom: 0;
     display: inline-block;
-    position:static;
+    position: static;
     width: 100%;
     color: black;
     margin-top: 10px;
+    margin-left: 10px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px){
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .container1 {
         display: inline-block;
         width: 100vw;
     }
 
-    .side aside{
+    .side aside {
         width: 100vw;
         flex-direction: column;
         height: 100%;
         position: inherit;
     }
 
-    .secao{
+    .secao {
         width: 100vw;
         float: none;
         height: 100%;
     }
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
     .container1 {
         display: inline-block;
         width: 100vw;
     }
 
-    .side aside{
+    .side aside {
         width: 100vw;
         flex-direction: column;
         height: 100%;
         position: inherit;
     }
 
-    .secao{
+    .secao {
         width: 100vw;
         float: none;
         height: 100%;
     }
 }
-
-
-
-
-
